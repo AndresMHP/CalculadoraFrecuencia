@@ -20,3 +20,12 @@ function CalcularFrecuencia() {
     //Mostrar el resultado 
     document.getElementById('frecuencia').innerText = frecuencia.toFixed(2);
 }
+
+function ReiniciarCalculo() {
+        // Limpiar los valores de los campos de entrada
+        document.getElementById('masa').value = '';
+        document.getElementById('k').value = '';
+        
+        // Limpiar el resultado mostrado
+        document.getElementById('frecuencia').innerText = '';
+}
