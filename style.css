@@ -53,10 +53,26 @@ button {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 5px; /* Espacio entre botones */
+    
+    
 }
 
 button:hover {
     background-color: #162433;
+}
+button.reiniciar {
+    padding: 5px 10px; /* Tamaño más pequeño */
+    font-size: 14px; /* Texto más pequeño */
+    background-color: #2b2a2a; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    border: 1px solid #181716; /* Borde */
+}
+
+
+button.reiniciar:hover {
+    background-color: #9c9894;
+    color: #f9f9f9;
 }
 
 #resultado {
