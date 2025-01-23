@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Frecuencia de Movimiento Armónico Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cálculo de la Frecuencia de un Sistema MAS</h1>
+
+        <label for="masa">Masa (kg):</label>
+        <input type="number" id="masa" required> 
+        
+        <label for="k">Constante de rigidez (N/m):</label>
+        <input type="number" id="k" required>
+
+        <button onclick="CalcularFrecuencia()">Calcular Frecuencia</button>
+        <button class="reiniciar" onclick="ReiniciarCalculo()">Hacer otro cálculo</button>
+
+        <div id="resultado">
+            <p>Frecuencia: <span id="frecuencia"></span> Hz</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <img src="https://res.cloudinary.com/dacu4sbr5/image/upload/v1737042401/nsp3xinh5pgwchbt5ych.png" alt="Logo Universidad">
+                <p class="university-name">Universidad de las Américas</p>
+            </div>
+            <div class="footer-info">
+                <p>Estudiante: <strong>Marco Andrés Hidalgo</strong></p>
+                <p>Carrera: <strong>Ingeniería en Sonido y Acústica</strong></p>
+                <p>Materia: <strong>Física de Ondas y Señales</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
