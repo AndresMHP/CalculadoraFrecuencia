@@ -9,7 +9,7 @@
 <body>
 
     <div class="container">
-        <h1>Cálculo de la Frecuencia de un Sistema M.A.S</h1>
+        <h1>Cálculo de la Frecuencia de un Sistema MAS</h1>
 
         <label for="masa">Masa (kg):</label>
         <input type="number" id="masa" required> 
@@ -17,7 +17,8 @@
         <label for="k">Constante de rigidez (N/m):</label>
         <input type="number" id="k" required>
 
-        <button onclick="CalcularFrecuencia()">Frecuencia</button>
+        <button onclick="CalcularFrecuencia()">Calcular Frecuencia</button>
+        <button class="reiniciar" onclick="ReiniciarCalculo()">Hacer otro cálculo</button>
 
         <div id="resultado">
             <p>Frecuencia: <span id="frecuencia"></span> Hz</p>
